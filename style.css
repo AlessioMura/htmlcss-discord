@@ -14,9 +14,12 @@
     border: 1px dashed;
 }
 
+.py4 {
+    padding: 2rem 2rem;
+}
+
 .conteiner {
     width: 80%;
-
     margin: auto;
 }
 
@@ -24,11 +27,16 @@
     display: flex;
 }
 
-h2{
+h2 {
     font-size: 3rem;
 }
-p{
+
+p {
     font-size: 1.5rem;
+}
+
+.wave {
+    opacity: 0.05;
 }
 
 /* #endregion common */
@@ -64,20 +72,12 @@ p{
     align-items: center;
 }
 
-
-
-
-
-
 /* #endregion header */
 
 /* #region main */
 .download {
     text-align: center;
     margin: 0;
- 
-
-
 
     .centered {
         position: absolute;
@@ -88,27 +88,88 @@ p{
     }
 }
 
-#jumbo {
-    width: 1920px;
+.jumbo {
+    max-width: 1920px;
 }
 
-div[class^=top_link]{
+div[class^=top_link] {
     justify-content: space-around;
     padding: 1rem;
     border-radius: 3rem;
-    .top_link_1{
+
+    .top_link_1 {
         background-color: white;
         color: black;
     }
-    .top_link_2{
+
+    .top_link_2 {
         background-color: black;
     }
 }
 
+/* #region talking_space */
+.talking_space_c {
+    padding: 8rem 0;
 
-.py4 {
-    padding: 2rem 2rem;
+    .talking_space {
+        width: 25%;
+    }
+
+    .talking_space_img {
+        width: 50%;
+    }
 }
+
+
+/* #endregion talking_space */
+
+/* #region find_others */
+.find_others_c {
+    padding: 8rem 0;
+
+    .find_others_img {
+        width: 50%;
+    }
+
+    .find_others {
+        width: 25%;
+    }
+}
+/* #endregion find_others */
+
+/* #region fandom */
+.fandom_c {
+    padding: 8rem 0;
+
+    .fandom {
+        width: 25%;
+    }
+
+    .fandom_img {
+        width: 50%;
+    }
+}
+/* #endregion fandom */
+
+/* #region keeping_contact */
+.keeping_contact{
+    padding-top: 8rem 0;
+    text-align: center;
+}
+/* #endregion keeping_contact */
+
+/* #region start */
+.start{
+    text-align: center;
+    .start_button{
+        color: white;
+        background-color: #8ea1e1;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+/* #endregion start */
 
 /* #endregion main */
 
