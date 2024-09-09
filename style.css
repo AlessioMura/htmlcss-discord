@@ -1,0 +1,70 @@
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}   
+
+#debug * {
+    border: 1px dashed;
+}
+
+.conteiner{
+    width: 80%;
+    max-width: 1172px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* #endregion common */
+
+/* #region header */
+
+#app_header {
+
+    padding: 1rem 0;
+
+    .logo,
+    .login {
+        flex-grow: 1
+    }
+
+    .login {
+        text-align: end;
+    }
+
+    .main_menu {
+        flex-grow: 2;
+        text-align: center;
+    }
+}
+/* #endregion header */
+
+/* #region main */
+
+.py4{
+    padding: 2rem 2rem;
+}
+
+/* #endregion main */
+
+/* #region footer */
+#app_footer{
+    .bottom{
+        padding: 1rem 0;
+    }
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+/* #endregion footer */
